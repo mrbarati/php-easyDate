@@ -7,7 +7,7 @@
 (new easyDate())->getTimeZone(); // get current timezone. output sample: Asia/Tehran
 ```
 
-### Calendar
+### Calendar system
 ```php
 (new easyDate())->setCalendar('jalali'); // set calendar system
 (new easyDate())->setCalendar('jalali',true); // set calendar globally
