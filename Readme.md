@@ -15,3 +15,13 @@
 
 (new easyDate())->addCalendar('jalali',className); // for developing calendar. check developing section
 ```
+
+### Languages
+```php
+(new easyDate())->setLang('fa'); // set language
+(new easyDate())->setLang('fa',true); // set language globally
+(new easyDate())->getLang(); // get current language. output sample: Fa
+
+(new easyDate())->addLang('fa',$translates); // for developing laguages. check developing section
+```
+
