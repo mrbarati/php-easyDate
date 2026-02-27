@@ -22,6 +22,7 @@
 (new easyDate())->setLang('fa',true); // set language globally
 (new easyDate())->getLang(); // get current language. output sample: Fa
 
+$translates=["gregorian"=>[...],"jalali"=>[...]];
 (new easyDate())->addLang('fa',$translates); // for developing laguages. check developing section
 ```
 
